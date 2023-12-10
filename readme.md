@@ -136,3 +136,4 @@ Classe que representa uma tabela Q para aprendizado por reforço.
 <a id="Main.py"></a>
 ### Main.py
 Arquivo python onde são definidos os parâmetros configuráveis, instanciados os objetos de agente e ambiente, executada a função train() de acordo com o número de episódios configurado e exibido o resultado gráfico final.
+![image](https://github.com/fabiomarcelodesouza/reinforcement_learning_ambiente_2d/assets/115677711/0795e5d7-320c-4d95-9f61-11930f44e579)
