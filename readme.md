@@ -1,10 +1,31 @@
 # Desafio de Aprendizado por Reforço - Solução para empresa de logística que opera uma frota de robôs de entrega autônomos
-Contexto:
+## Sumário
+- [Contexto](#contexto)
+- [Objetivo](#Objetivo)
+- [Tarefas](#Tarefas)
+- [Critérios de avaliação](#Criterios)
+- [Descrição da aplicação](#DescricaoAplicacao)
+- [Ambiente](#Ambiente)
+- [Agente](#Agente)
+- [Treinamento](#Treinamento)
+- [Visualização Gráfica](#VisualizacaoGrafica)
+- [Parâmetros Configuráveis](#ParametrosConfiguraveis)
+- [Resultado Final](#ResultadoFinal)
+- [Código Fonte](#CodigoFonte)
+    - [Enviroment.py](#Enviroment.py)
+    - [Agent.py](#Agent.py)
+    - [QTable.py](#QTable.py)
+    - [Main](#Main.py)
+    - 
+<a id="Contexto"></a>
+## Contexto:
 Imagine que você está trabalhando em uma empresa de logística que opera uma frota de robôs de entrega autônomos. Sua tarefa é implementar um algoritmo de aprendizado por reforço para otimizar a entrega de pacotes em um ambiente simulado. Os robôs têm a capacidade de se mover em um ambiente em grade 2D e devem aprender a tomar decisões sobre para onde se mover para entregar pacotes de forma eficiente.
 
+<a id="Objetivo"></a>
 ## Objetivo:
 O objetivo do desafio é implementar um agente de aprendizado por reforço usando ténicas como por exemplo Q-Table, equação de Bellman, ε-greedy e etc, para maximizar o retorno cumulativo ao entregar pacotes no menor tempo possível, considerando um "living penalty" para incentivar o agente a ser eficiente.
 
+<a id="Tarefas"></a>
 ## Tarefas:
 1.	Modelagem do ambiente: Crie um ambiente 2D simulado, onde o agente pode se mover em um grid. Considere que o ambiente tem obstáculos e pontos de entrega de pacotes.
 2.	Definição do MDP: Modele o problema como um MDP, definindo os estados, as ações, as recompensas, a função de transição e o fator de desconto.
@@ -13,6 +34,7 @@ O objetivo do desafio é implementar um agente de aprendizado por reforço usand
 5.	Living Penalty: Introduza um "living penalty" para penalizar o agente por gastar muito tempo no ambiente. Isso deve incentivar o agente a encontrar a rota mais eficiente para entregar os pacotes.
 6.	Treinamento e avaliação: Treine o agente usando um algoritmo de aprendizado por reforço, como o Q-Learning, e avalie seu desempenho em termos de eficiência na entrega de pacotes.
 
+<a id="Criterios"></a>
 ## Critérios de Avaliação:
 Os alunos serão avaliados com base nos seguintes critérios:
 1.	Implementação correta do ambiente, MDP e Q-Table.
@@ -37,21 +59,6 @@ Os alunos serão avaliados com base nos seguintes critérios:
 
 
 # Implementação
-
-## Sumário
-- [Descrição da aplicação](#DescricaoAplicacao)
-- [Ambiente](#Ambiente)
-- [Agente](#Agente)
-- [Treinamento](#Treinamento)
-- [Visualização Gráfica](#VisualizacaoGrafica)
-- [Parâmetros Configuráveis](#ParametrosConfiguraveis)
-- [Resultado Final](#ResultadoFinal)
-- [Código Fonte](#CodigoFonte)
-    - [Enviroment.py](#Enviroment.py)
-    - [Agent.py](#Agent.py)
-    - [QTable.py](#QTable.py)
-    - [Main](#Main.py)
-
 [![Open in GitHub Codespaces](https://img.shields.io/static/v1?style=for-the-badge&label=GitHub+Codespaces&message=Open&color=brightgreen&logo=github)](https://codespaces.new/fabiomarcelodesouza/reinforcement_learning_ambiente_2d/tree/main)
 
 <a id="DescricaoAplicacao"></a>
