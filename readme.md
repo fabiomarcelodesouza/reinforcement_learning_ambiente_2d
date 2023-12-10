@@ -39,7 +39,6 @@ Os alunos serão avaliados com base nos seguintes critérios:
 # Implementação
 
 ## Sumário
-- [teste](#ancora2)
 - [Descrição da aplicação](#descricao-da-aplicacao)
 - [Enviroment.py](#Enviroment)
     - [Descrição](#descricaoEnviroment)
@@ -60,8 +59,8 @@ Os alunos serão avaliados com base nos seguintes critérios:
 
 [![Open in GitHub Codespaces](https://img.shields.io/static/v1?style=for-the-badge&label=GitHub+Codespaces&message=Open&color=brightgreen&logo=github)](https://codespaces.new/fabiomarcelodesouza/reinforcement_learning_ambiente_2d/tree/main)
 
-<a id="ancora2"></a>
-## asdfasdf
+<a id="descricao-da-aplicacao"></a>
+## Descrição da aplicação
 Essa aplicação implementa um ambiente 2D para treinamento de aprendizado por reforço, utilizando um agente que interage com esse ambiente. Segue abaixo uma descrição detalhada:
 
 ## Ambiente:
