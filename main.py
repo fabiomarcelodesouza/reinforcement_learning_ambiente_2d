@@ -89,4 +89,5 @@ ax.set_yticks([])
 
 # Criação da animação
 ani = FuncAnimation(fig, update, frames=len(path), repeat=False)
+print(path)
 plt.show()
