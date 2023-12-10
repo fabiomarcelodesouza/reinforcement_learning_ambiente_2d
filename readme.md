@@ -38,50 +38,25 @@ Os alunos serão avaliados com base nos seguintes critérios:
 
 # ChatGPT + Enterprise data with Azure OpenAI and AI Search
 
-> [!IMPORTANT]
-> As of November 15, 2023, Azure Cognitive Search has been renamed to Azure AI Search.
+## Conteúdo
 
-### Announcing [**JavaScript**](https://aka.ms/azai/js/code), [**.NET**](https://aka.ms/azai/net/code), and [**Java**](https://aka.ms/azai/java/code) samples based on this one in [**Python**](https://aka.ms/azai/py/code). Learn more at  https://aka.ms/azai.
+- [Agent.py](#agent)
+    - [Descrição](#descricaoAgent)
+    - [Attributes](#attributesAgent)
+    - [Methods](#methodsAgent)
+- [QTable.py](#QTable)
+    - [Descrição](#descricaoQTable)
+    - [Attributes](#attributesQTable)
+    - [Methods](#methodsQTable)
+- [Enviroment.py](#Enviroment)
+    - [Descrição](#descricaoEnviroment)
+    - [Attributes](#attributesEnviroment)
+    - [Methods](#methodsEnviroment)
+- [Main](#Main)
+    - [Descrição](#descricaoMain)
+    - [Attributes](#attributesMain)
+    - [Methods](#methodsMain)
 
-## Table of Contents
-
-- [ChatGPT + Enterprise data with Azure OpenAI and AI Search](#chatgpt--enterprise-data-with-azure-openai-and-ai-search)
-    - [Announcing **JavaScript**, **.NET**, and **Java** samples based on this one in **Python**. Learn more at  https://aka.ms/azai.](#announcing-javascript-net-and-java-samples-based-on-this-one-in-python-learn-more-at--httpsakamsazai)
-  - [Table of Contents](#table-of-contents)
-  - [Features](#features)
-  - [Azure account requirements](#azure-account-requirements)
-  - [Azure deployment](#azure-deployment)
-    - [Cost estimation](#cost-estimation)
-    - [Project setup](#project-setup)
-      - [GitHub Codespaces](#github-codespaces)
-      - [VS Code Dev Containers](#vs-code-dev-containers)
-      - [Local environment](#local-environment)
-    - [Deploying from scratch](#deploying-from-scratch)
-    - [Deploying with existing Azure resources](#deploying-with-existing-azure-resources)
-      - [Existing resource group](#existing-resource-group)
-      - [Existing OpenAI resource](#existing-openai-resource)
-        - [Azure OpenAI:](#azure-openai)
-        - [Openai.com OpenAI:](#openaicom-openai)
-      - [Existing Azure AI Search resource](#existing-azure-ai-search-resource)
-      - [Other existing Azure resources](#other-existing-azure-resources)
-      - [Provision remaining resources](#provision-remaining-resources)
-    - [Deploying again](#deploying-again)
-  - [Sharing environments](#sharing-environments)
-  - [Enabling optional features](#enabling-optional-features)
-    - [Enabling authentication](#enabling-authentication)
-    - [Enabling login and document level access control](#enabling-login-and-document-level-access-control)
-    - [Enabling CORS for an alternate frontend](#enabling-cors-for-an-alternate-frontend)
-  - [Running locally](#running-locally)
-  - [Using the app](#using-the-app)
-  - [Monitoring with Application Insights](#monitoring-with-application-insights)
-  - [Customizing the UI and data](#customizing-the-ui-and-data)
-  - [Productionizing](#productionizing)
-  - [Resources](#resources)
-  - [Clean up](#clean-up)
-    - [FAQ](#faq)
-    - [Troubleshooting](#troubleshooting)
-    - [Getting help](#getting-help)
-    - [Note](#note)
 
 [![Open in GitHub Codespaces](https://img.shields.io/static/v1?style=for-the-badge&label=GitHub+Codespaces&message=Open&color=brightgreen&logo=github)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=599293758&machine=standardLinux32gb&devcontainer_path=.devcontainer%2Fdevcontainer.json&location=WestUs2)
 [![Open in Dev Containers](https://img.shields.io/static/v1?style=for-the-badge&label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/azure-samples/azure-search-openai-demo)
