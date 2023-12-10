@@ -46,7 +46,7 @@ Os alunos serão avaliados com base nos seguintes critérios:
 - [Visualização Gráfica](#VisualizacaoGrafica)
 - [Parâmetros Configuráveis](#ParametrosConfiguraveis)
 - [Resultado Final](#ResultadoFinal)
-- Código Fonte
+- [Código Fonte](#CodigoFonte)
     - [Enviroment.py](#Enviroment.py)
     - [Agent.py](#Agent.py)
     - [QTable.py](#QTable.py)
@@ -94,6 +94,18 @@ Essencialmente, a aplicação simula um cenário de aprendizado por reforço em 
 
 <a id="CodigoFonte"></a>
 ## Código Fonte:
+
+<a id="Enviroment.py"></a>
+### Enviroment.py
+
+<a id="Agent.py"></a>
+### Agent.py
+
+<a id="QTable.py"></a>
+### QTable.py
+
+<a id="Main.py"></a>
+### Main.py
 
 
 
