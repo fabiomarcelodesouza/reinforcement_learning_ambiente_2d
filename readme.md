@@ -1,22 +1,27 @@
 # Desafio de Aprendizado por Reforço - Solução para empresa de logística que opera uma frota de robôs de entrega autônomos
 ## Sumário
-- [Contexto](#contexto)
-- [Objetivo](#Objetivo)
-- [Tarefas](#Tarefas)
-- [Critérios de avaliação](#Criterios)
-- [Descrição da aplicação](#DescricaoAplicacao)
-- [Ambiente](#Ambiente)
-- [Agente](#Agente)
-- [Treinamento](#Treinamento)
-- [Visualização Gráfica](#VisualizacaoGrafica)
-- [Parâmetros Configuráveis](#ParametrosConfiguraveis)
-- [Resultado Final](#ResultadoFinal)
-- [Código Fonte](#CodigoFonte)
-    - [Enviroment.py](#Enviroment.py)
-    - [Agent.py](#Agent.py)
-    - [QTable.py](#QTable.py)
-    - [Main](#Main.py)
-    - 
+- [Desafio](#Desafio)
+	- [Contexto](#contexto)
+	- [Objetivo](#Objetivo)
+	- [Tarefas](#Tarefas)
+	- [Critérios de avaliação](#Criterios)
+- [Implementação](#Implementacao)
+	- [Requerimentos](#Requerimentos)
+	- [Descrição da aplicação](#DescricaoAplicacao)
+	- [Ambiente](#Ambiente)
+	- [Agente](#Agente)
+	- [Treinamento](#Treinamento)
+	- [Visualização Gráfica](#VisualizacaoGrafica)
+	- [Parâmetros Configuráveis](#ParametrosConfiguraveis)
+	- [Resultado Final](#ResultadoFinal)
+	- [Código Fonte](#CodigoFonte)
+		- [Enviroment.py](#Enviroment.py)
+		- [Agent.py](#Agent.py)
+		- [QTable.py](#QTable.py)
+		- [Main](#Main.py)
+
+<a id="Desafio"></a>
+# Desafio
 <a id="Contexto"></a>
 ## Contexto:
 Imagine que você está trabalhando em uma empresa de logística que opera uma frota de robôs de entrega autônomos. Sua tarefa é implementar um algoritmo de aprendizado por reforço para otimizar a entrega de pacotes em um ambiente simulado. Os robôs têm a capacidade de se mover em um ambiente em grade 2D e devem aprender a tomar decisões sobre para onde se mover para entregar pacotes de forma eficiente.
@@ -43,6 +48,11 @@ Os alunos serão avaliados com base nos seguintes critérios:
 4.	Eficiência do agente na entrega de pacotes.
 5.	Documentação clara e código bem comentado em Python.
 
+<a id="Implementacao"></a>
+# Implementação
+
+<a id="Requerimentos"></a>
+## Requerimentos
 | Linguagem        | Bibliotecas       | Versão       |
 |------------------|-------------------|--------------|
 | Python 3.11.5    | contourpy         | 1.2.0        |
@@ -57,8 +67,6 @@ Os alunos serão avaliados com base nos seguintes critérios:
 |                  | python-dateutil   | 2.8.2        |
 |                  | six               | 1.16.0       |
 
-
-# Implementação
 [![Open in GitHub Codespaces](https://img.shields.io/static/v1?style=for-the-badge&label=GitHub+Codespaces&message=Open&color=brightgreen&logo=github)](https://codespaces.new/fabiomarcelodesouza/reinforcement_learning_ambiente_2d/tree/main)
 
 <a id="DescricaoAplicacao"></a>
