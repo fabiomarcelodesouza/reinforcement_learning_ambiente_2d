@@ -39,7 +39,13 @@ Os alunos serão avaliados com base nos seguintes critérios:
 # Implementação
 
 ## Sumário
-- [Descrição da aplicação](#descricao-da-aplicacao)
+- [Descrição da aplicação](#DescricaoAplicacao)
+- [Ambiente](#Ambiente)
+- [Agente](#Agente)
+- [Treinamento](#Treinamento)
+- [Visualização Gráfica](#VisualizacaoGrafica)
+- [Parâmetros Configuráveis](#ParametrosConfiguraveis)
+- [Resultado Final](#ResultadoFinal)
 - [Enviroment.py](#Enviroment)
     - [Descrição](#descricaoEnviroment)
     - [Attributes](#attributesEnviroment)
@@ -59,33 +65,39 @@ Os alunos serão avaliados com base nos seguintes critérios:
 
 [![Open in GitHub Codespaces](https://img.shields.io/static/v1?style=for-the-badge&label=GitHub+Codespaces&message=Open&color=brightgreen&logo=github)](https://codespaces.new/fabiomarcelodesouza/reinforcement_learning_ambiente_2d/tree/main)
 
-<a id="descricao-da-aplicacao"></a>
+<a id="DescricaoAplicacao"></a>
 ## Descrição da aplicação
 Essa aplicação implementa um ambiente 2D para treinamento de aprendizado por reforço, utilizando um agente que interage com esse ambiente. Segue abaixo uma descrição detalhada:
 
+<a id="Ambiente"></a>
 ## Ambiente:
 O ambiente é um labirinto 2D com obstáculos e pontos de entrega.
 O agente inicia em uma posição específica no labirinto.
 Existem obstáculos que o agente deve evitar e pontos de entrega que o agente deve alcançar.
 
+<a id="Agente"></a>
 ## Agente:
 Um agente é criado para navegar no ambiente.
 O agente toma decisões (ações) com base no estado atual do ambiente para maximizar as recompensas acumuladas ao longo do tempo.
 O agente utiliza uma tabela Q para aprender e otimizar suas decisões.
 
+<a id="Treinamento"></a>
 ## Treinamento:
 O agente passa por um processo de treinamento em vários episódios.
 Em cada episódio, o agente interage com o ambiente, escolhendo ações com base em uma política epsilon-greedy.
 O agente aprende com as recompensas recebidas e atualiza sua tabela Q usando a equação de Bellman.
 
+<a id="VisualizacaoGrafica"></a>
 ## Visualização Gráfica:
 Durante o treinamento, uma representação gráfica do ambiente é exibida.
 O agente é visualizado no gráfico à medida que se move pelo labirinto.
 Um gráfico animado mostra o progresso do agente, destacando suas posições e recompensas ao longo do tempo.
 
+<a id="ParametrosConfiguraveis"></a>
 ## Parâmetros Configuráveis:
 Diversos parâmetros são configuráveis, como tamanho do ambiente, localização de obstáculos e pontos de entrega, taxa de aprendizado (alpha), fator de desconto (gamma), e taxa de exploração (epsilon).
 
+<a id="ResultadoFinal"></a>
 ## Resultado Final:
 O treinamento é concluído após um número especificado de episódios.
 O resultado final inclui a exibição gráfica do labirinto com o agente, mostrando como o agente aprendeu a navegar no ambiente ao longo do tempo.
