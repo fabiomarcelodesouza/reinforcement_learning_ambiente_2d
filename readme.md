@@ -1,38 +1,40 @@
----
-name: Desafio de Aprendizado por Reforço - Solução para empresa de logística que opera uma frota de robôs de entrega autônomos
-description: Imagine que você está trabalhando em uma empresa de logística que opera uma frota de robôs de entrega autônomos. Sua tarefa é implementar um algoritmo de aprendizado por reforço para otimizar a entrega de pacotes em um ambiente simulado. Os robôs têm a capacidade de se mover em um ambiente em grade 2D e devem aprender a tomar decisões sobre para onde se mover para entregar pacotes de forma eficiente.
+# Desafio de Aprendizado por Reforço - Solução para empresa de logística que opera uma frota de robôs de entrega autônomos
+Contexto:
+Imagine que você está trabalhando em uma empresa de logística que opera uma frota de robôs de entrega autônomos. Sua tarefa é implementar um algoritmo de aprendizado por reforço para otimizar a entrega de pacotes em um ambiente simulado. Os robôs têm a capacidade de se mover em um ambiente em grade 2D e devem aprender a tomar decisões sobre para onde se mover para entregar pacotes de forma eficiente.
 
-Objetivo. O objetivo do desafio é implementar um agente de aprendizado por reforço usando ténicas como por exemplo Q-Table, equação de Bellman, ε-greedy e etc, para maximizar o retorno cumulativo ao entregar pacotes no menor tempo possível, considerando um "living penalty" para incentivar o agente a ser eficiente.
+## Objetivo:
+O objetivo do desafio é implementar um agente de aprendizado por reforço usando ténicas como por exemplo Q-Table, equação de Bellman, ε-greedy e etc, para maximizar o retorno cumulativo ao entregar pacotes no menor tempo possível, considerando um "living penalty" para incentivar o agente a ser eficiente.
 
-Tarefas
-1.	Modelagem do ambiente - Crie um ambiente 2D simulado, onde o agente pode se mover em um grid. Considere que o ambiente tem obstáculos e pontos de entrega de pacotes.
-2.	Definição do MDP - Modele o problema como um MDP, definindo os estados, as ações, as recompensas, a função de transição e o fator de desconto.
-3.	Implementação da Q-Table - Crie uma Q-Table para representar o valor estimado de cada par (estado, ação).
-4.	Implementação do agente - Desenvolva um agente de aprendizado por reforço que utiliza a equação de Bellman para atualizar a Q-Table com base nas recompensas recebidas ao longo do tempo.
-5.	Living Penalty - Introduza um "living penalty" para penalizar o agente por gastar muito tempo no ambiente. Isso deve incentivar o agente a encontrar a rota mais eficiente para entregar os pacotes.
-6.	Treinamento e avaliação - Treine o agente usando um algoritmo de aprendizado por reforço, como o Q-Learning, e avalie seu desempenho em termos de eficiência na entrega de pacotes.
+## Tarefas:
+1.	Modelagem do ambiente: Crie um ambiente 2D simulado, onde o agente pode se mover em um grid. Considere que o ambiente tem obstáculos e pontos de entrega de pacotes.
+2.	Definição do MDP: Modele o problema como um MDP, definindo os estados, as ações, as recompensas, a função de transição e o fator de desconto.
+3.	Implementação da Q-Table: Crie uma Q-Table para representar o valor estimado de cada par (estado, ação).
+4.	Implementação do agente: Desenvolva um agente de aprendizado por reforço que utiliza a equação de Bellman para atualizar a Q-Table com base nas recompensas recebidas ao longo do tempo.
+5.	Living Penalty: Introduza um "living penalty" para penalizar o agente por gastar muito tempo no ambiente. Isso deve incentivar o agente a encontrar a rota mais eficiente para entregar os pacotes.
+6.	Treinamento e avaliação: Treine o agente usando um algoritmo de aprendizado por reforço, como o Q-Learning, e avalie seu desempenho em termos de eficiência na entrega de pacotes.
 
-Critérios de Avaliação
-Os alunos serão avaliados com base nos seguintes critérios
+## Critérios de Avaliação:
+Os alunos serão avaliados com base nos seguintes critérios:
 1.	Implementação correta do ambiente, MDP e Q-Table.
 2.	Implementação do algoritmo de aprendizado por reforço (Q-Learning ou similar).
 3.	Introdução e configuração adequada do "living penalty".
 4.	Eficiência do agente na entrega de pacotes.
 5.	Documentação clara e código bem comentado em Python.
 
-languages:
-- python
-- typescript
-- bicep
-- azdeveloper
-products:
-- azure-openai
-- azure-cognitive-search
-- azure-app-service
-- azure
-page_type: sample
-urlFragment: azure-search-openai-demo
----
+| Linguagem        | Bibliotecas       | Versão       |
+|------------------|-------------------|--------------|
+| Python 3.11.5    | contourpy         | 1.2.0        |
+|                  | cycler            | 0.12.1       |
+|                  | fonttools         | 4.46.0       |
+|                  | kiwisolver        | 1.4.5        |
+|                  | matplotlib        | 3.8.2        |
+|                  | numpy             | 1.26.2       |
+|                  | packaging         | 23.2         |
+|                  | Pillow            | 10.1.0       |
+|                  | pyparsing         | 3.1.1        |
+|                  | python-dateutil   | 2.8.2        |
+|                  | six               | 1.16.0       |
+
 
 # ChatGPT + Enterprise data with Azure OpenAI and AI Search
 
